@@ -104,7 +104,9 @@ ul > li > a {
 
 #curiosidades {
     margin-top: 60px;
+    padding-top: 2%;
     background-color: #E7E7E7;
+    padding-bottom: 7%;
 }
 
 .curiosidades-titulo-1 {
@@ -116,8 +118,9 @@ ul > li > a {
     width: 100%;
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: repeat(auto-fit, 186px);
-    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: repeat(auto-fit, 180px);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 50px;
 }
 
 .curiosidades-inf_texto {
@@ -126,11 +129,12 @@ ul > li > a {
 
 .c{
     text-align: center;
-    margin-top: 20px;
     background-color: #FFFFFF;
     border-radius: 10%;
-    padding: 10%;
-    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 180px;
     border: 1px solid black;
     box-shadow: 10px black;
 
