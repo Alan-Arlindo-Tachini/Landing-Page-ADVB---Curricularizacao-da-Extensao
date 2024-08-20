@@ -1,0 +1,111 @@
+:root {
+    --cor-primaria: #28703C;
+    --font-primaria: "Roboto", sans-serif;
+    --cor-branca: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-primaria);
+}
+
+header {
+    height: 100px;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-primaria);
+}
+
+img.logo {
+    height: 100%;
+}
+
+div.header-links {
+    flex-grow: 1;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    display: inline;
+}
+
+ul > li > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.margin-right-10-px {
+    margin-right: 10px;
+} 
+.margin-right-5-percent {
+    margin-right: 5%;
+}
+
+.margin-left-5-percent {
+    margin-left: 5%;
+}
+
+.ftr-fim {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    text-align: left;
+    margin: auto auto;
+}
+
+.ftr-fim_img {
+
+    width: 80%;
+}
+
+.ftr-fim_dir {
+    height: 100%;
+    padding-top: 2%;
+}
+
+.ftr-fim_rua{
+    font-size: 70%;
+    color: white;
+    margin-top: 3%;
+}
+
+.ftr-fim_fone  {
+    font-size: 80%;
+
+    color: white;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.ftr-fim_icon {
+    margin-top: 10%;
+    align-items: center;
+    padding-left: 90px;
+    display: flex;
+    gap: 10%;
+    text-align: right;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 200px;
+    background-color: #28703C;
+    height: 10%;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
+}
+
