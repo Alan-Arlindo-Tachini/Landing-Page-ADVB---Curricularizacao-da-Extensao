@@ -57,6 +57,46 @@ ul > li > a {
     margin-left: 5%;
 }
 
+.inicio{
+    width: 100%;
+    
+}
+
+.inicio-letra {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width: 95%;
+    gap: 20px;
+}
+
+.inicio-letra{
+    width: 80%;
+
+}
+
+.inicio-letra-1 {
+    width: 50%;
+}
+
+.inicio-imagem {
+    width: 100%;
+    margin-top: 13%;
+}
+
+.inicio-letra_texto {
+    font-size: 200%
+}
+
+.inicio-letra_botao {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 1%;
+    padding-inline: 7%;
+    list-style: cross-fade();
+}
+
 .ftr-fim {
     display: flex;
     justify-content: space-between;
