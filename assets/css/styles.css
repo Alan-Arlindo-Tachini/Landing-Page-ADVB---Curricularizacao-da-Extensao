@@ -25,7 +25,7 @@ header {
 }
 
 img.logo {
-    height: 100%;
+    height: 70%;
 }
 
 div.header-links {
@@ -81,20 +81,59 @@ ul > li > a {
 }
 
 .inicio-imagem {
-    width: 100%;
-    margin-top: 13%;
+    width: 120%;
+
 }
 
 .inicio-letra_texto {
-    font-size: 200%
+    font-size: 200%;
 }
 
 .inicio-letra_botao {
     background-color: var(--cor-primaria);
     color: white;
-    padding: 1%;
-    padding-inline: 7%;
+    padding-block: 1.5%;
+    padding-inline: 6%;
     list-style: cross-fade();
+}
+
+.inicio-letra_descrição {
+    font-size: 100%;
+}
+
+
+#curiosidades {
+    margin-top: 60px;
+    background-color: #E7E7E7;
+}
+
+.curiosidades-titulo-1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.curiosidades-inf {
+    width: 100%;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, 186px);
+    grid-template-rows: 1fr 1fr ;
+}
+
+.curiosidades-inf_texto {
+    width: 90%;
+}
+
+.c{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    padding: 10%;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 10px black;
+
 }
 
 .ftr-fim {
