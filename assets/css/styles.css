@@ -57,9 +57,19 @@ ul > li > a {
     margin-left: 5%;
 }
 
-.inicio{
-    width: 100%;
-    
+@media (max-width: 1000px) {
+    /* Styles for devices with a screen width of 768px or less */
+    .inicio-img {
+        display: none;
+    }
+
+    .inicio-letra-1 {
+        width: 100% !important;
+    }
+}
+
+#inicio{
+    height: calc(100vh - 100px);  
 }
 
 .inicio-letra {
@@ -67,7 +77,8 @@ ul > li > a {
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-    width: 95%;
+    width: 100%;
+    height: 100%;
     gap: 20px;
 }
 
@@ -80,11 +91,6 @@ ul > li > a {
     width: 50%;
 }
 
-.inicio-imagem {
-    width: 120%;
-
-}
-
 .inicio-letra_texto {
     font-size: 200%;
 }
@@ -95,15 +101,22 @@ ul > li > a {
     padding-block: 1.5%;
     padding-inline: 6%;
     list-style: cross-fade();
+    text-decoration: underline;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px #00000045;
 }
 
 .inicio-letra_descrição {
     font-size: 100%;
+    text-align: justify;
+    font-weight: 100;
+    font-style: normal;
 }
 
 
 #curiosidades {
-    margin-top: 60px;
+
     padding-top: 2%;
     background-color: #E7E7E7;
     padding-bottom: 7%;
@@ -116,29 +129,54 @@ ul > li > a {
 
 .curiosidades-inf {
     width: 100%;
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(auto-fit, 180px);
-    grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 50px;
 }
 
 .curiosidades-inf_texto {
     width: 90%;
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin: 0 auto;   grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
 }
 
 .c{
     text-align: center;
     background-color: #FFFFFF;
-    border-radius: 10%;
-    gap: 20px;
+    border-radius: 3%;
     padding: 20px;
-    width: 200px;
-    height: 180px;
+    width: 80%;
+    height: 100%;
     border: 1px solid black;
     box-shadow: 10px black;
 
 }
+
+#noticias {
+    padding-top: 24px;
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+    height: 20%;
+}
+
+.noticias-carrosel {
+    padding-top: 15px;
+}
+
+#noticias img {
+    width: 100%;
+    height: 550px;
+}
+
+
+@media (max-width: 600px) {
+    #noticias img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
 
 .ftr-fim {
     display: flex;
@@ -183,8 +221,8 @@ ul > li > a {
 
 #footer {
     width: 100%;
-    margin-top: 200px;
-    background-color: #28703C;
+    margin-top: 27px;
+    background-color: var(--cor-primaria);
     height: 10%;
     align-items: center;
     padding-top: 1%;
@@ -192,3 +230,98 @@ ul > li > a {
     
 }
 
+@media (max-width: 1024px) {
+    .curiosidades-inf_texto {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .curiosidades-inf_texto {
+        grid-template-columns: 1fr; 
+    
+    }
+    .curiosidades-inf {
+        padding-bottom: 7%;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer {
+        padding-top: 20px;
+    }
+}
+
+/* Ferramentas */
+
+#ferramentas {
+
+    padding-top: 2%;
+    background-color: #E7E7E7;
+    padding-bottom: 7%;
+}
+
+.ferramentas-titulo {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.ferramentas-inf {
+    width: 100%;
+}
+
+.ferramentas-inf_texto {
+    width: 90%;
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin: 0 auto;   grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.cards{
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+    box-shadow: 10px black;
+
+}
+
+.ferramentas-img {
+    width: 50px;
+}
+
+@media (max-width: 1024px) {
+    .ferramentas-inf_texto {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .ferramentas-inf_texto {
+        grid-template-columns: 1fr; 
+    
+    }
+    .ferramentas-inf {
+        padding-bottom: 7%;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer {
+        padding-top: 20px;
+    }
+}
+
+.ferramentas-inf_texto_7 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ferramentas-img-card {
+    width: 200px;
+}
