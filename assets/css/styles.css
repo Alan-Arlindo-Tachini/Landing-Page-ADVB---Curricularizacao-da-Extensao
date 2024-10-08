@@ -12,6 +12,10 @@
     font-family: var(--font-primaria);
 }
 
+img {
+    max-width: none !important;
+}
+
 /* HEADER */
 
 header {
@@ -443,6 +447,7 @@ div.ferramentas-inf_texto_7 > div {
 .ferramentas-inf_texto_7-img-choromex {
     border-radius: 50px;
     height: 80%;
+    max-width: 100% !important;
 }
 
 @media (max-width: 1024px) {
@@ -514,5 +519,12 @@ div.ferramentas-inf_texto_7 > div {
 @media (max-width: 768px) {
     #footer {
         padding-top: 20px;
+    }
+}
+
+
+@media all and (min-width: 1000px) and (max-width: 1700px) {
+    #vlibras {
+        class: "enabled";
     }
 }
