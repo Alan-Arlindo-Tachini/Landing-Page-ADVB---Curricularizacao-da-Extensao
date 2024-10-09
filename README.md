@@ -48,8 +48,8 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ### 🎲 Clonando para Repositorio Local
 
+##### Clone este repositório
 ```bash
-# Clone este repositório
 $ git clone https://github.com/Alan-Arlindo-Tachini/Landing-Page-ADVB---Curricularizacao-da-Extensao.git
 ```
 
