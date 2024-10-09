@@ -57,25 +57,22 @@ Frameworks utilizados:
 
 ![MenuHamburguer](/assets/images/menu%20hamburguer.png
 )
-- [Bootstrap](https://getbootstrap.com/) para fazer o carrossel: 
+- [Bootstrap](https://getbootstrap.com/) para fazer o carrossel
 
-
-<video controls src="assets/videos/carossel.mp4" width:></video>
 
 <div id="autor"></div>
 
 ### 🙋‍♂️ Autores
 
-<div style="display: flex; justify-content: center; margin-left: 25%; flex-wrap: wrap; padding-top
-: 20px; gap: 50px">
 <a href="https://github.com/Alan-Arlindo-Tachini">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/160692029?v=4" width="100px;" alt=""/>
- <br />
+ <img src="https://avatars.githubusercontent.com/u/160692029?v=4" width="100px;" alt=""/>
+	 <br />
  <sub><b>Alan Arlindo Tachini</b></sub></a> <a href="https://github.com/Alan-Arlindo-Tachini" title="Alan-Unifebe"></a>
 
-
-<a href="https://github.com/MateusTama">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/134970504?v=4" width="100px;" alt=""/>
  <br />
+  <br />
+  <br />
+<a href="https://github.com/MateusTama">
+ <img src="https://avatars.githubusercontent.com/u/134970504?v=4" width="100px;" alt=""/>
+  <br />
  <sub><b>Mateus Tamasia</b></sub></a> <a href="https://github.com/MateusTama" title="Mateus-Unifebe"></a>
- <div>
