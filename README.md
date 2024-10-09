@@ -10,7 +10,7 @@
  <a href="#requisitos">Pré-requisitos</a> • 
  <a href="#clonando">Clonando para Repositorio Local</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#autor">Autor</a>
+ <a href="#autor">Autores</a>
 </p>
 
 <br/>
