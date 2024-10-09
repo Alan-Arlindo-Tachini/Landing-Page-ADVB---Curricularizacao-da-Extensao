@@ -360,7 +360,7 @@ div.header-links-ul > ul {
         grid-template-columns: repeat(2, 1.5fr); 
     }
 
-    .depoimentos-carrosel-item-conteudo-texto {
+    .depoimentos-carrossel-item-conteudo-texto {
         font-size: 16px !important;
     }
 }
@@ -543,7 +543,7 @@ div.ferramentas-inf_texto_7 > div {
         align-items: center;
     }
 
-    .depoimentos-carrosel-button {
+    .depoimentos-carrossel-button {
         margin-right: 0px !important;
     }
 
@@ -569,15 +569,15 @@ div.ferramentas-inf_texto_7 > div {
         width: 100% !important;
     }
 
-    .depoimentos-carrosel-button {
+    .depoimentos-carrossel-button {
         width: 80% !important;
     }
 
-    .depoimentos-carrosel-item-conteudo {
+    .depoimentos-carrossel-item-conteudo {
         padding: 10% !important;
     } 
 
-    .depoimentos-carrosel-item-conteudo-texto {
+    .depoimentos-carrossel-item-conteudo-texto {
         font-size: 16px !important;
     }
 
@@ -620,7 +620,7 @@ div.ferramentas-inf_texto_7 > div {
 /* FIM FERRAMENTAS */
 
 
-.noticias-carrosel-p {
+.noticias-carrossel-p {
     background-color: #D9D9D9;
     color: black;
     font-weight: bold;
@@ -658,7 +658,7 @@ div.ferramentas-inf_texto_7 > div {
     display: flex;
 }
 
-.depoimentos-carrosel {
+.depoimentos-carrossel {
     box-shadow: 1px 1px black;
     border: 1px solid black;
     border-radius: 10px;
@@ -681,7 +681,7 @@ div.ferramentas-inf_texto_7 > div {
     padding-bottom: 7%;
 }
 
-.depoimentos-carrosel-item {
+.depoimentos-carrossel-item {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -691,14 +691,18 @@ div.ferramentas-inf_texto_7 > div {
     height: 100%;
 }
 
-.depoimentos-carrosel-item-cabecalho-texto {
+.carousel a{
+    text-decoration: none;
+}
+
+.depoimentos-carrossel-item-cabecalho-texto {
     font-weight: bold;
     font-size: 24px;
     text-align: center;
     margin: 0px;
 }
 
-.depoimentos-carrosel-item-conteudo {
+.depoimentos-carrossel-item-conteudo {
     padding: 0px 10% 0px 10%;
     display: flex;
     flex-grow: 1;
@@ -706,14 +710,14 @@ div.ferramentas-inf_texto_7 > div {
     align-items: center;
 }
 
-.depoimentos-carrosel-item-conteudo-texto{
+.depoimentos-carrossel-item-conteudo-texto{
     margin: 0px;
     font-weight: 400;
     text-align: center;
     font-size: 24px;
 }
 
-.depoimentos-carrosel-item-cabecalho {
+.depoimentos-carrossel-item-cabecalho {
     height: 80px;
     display: flex;
     align-items: center;
@@ -725,7 +729,7 @@ div.ferramentas-inf_texto_7 > div {
     flex-grow: 0;
 }
 
-.depoimentos-carrosel-example {
+.depoimentos-carrossel-example {
     height: 100%;
 }
 
@@ -744,7 +748,7 @@ div.ferramentas-inf_texto_7 > div {
     margin-top: 10px;
 }
 
-.depoimentos-carrosel-button {
+.depoimentos-carrossel-button {
     width: 50%;
     margin-right: 5%;
 }
