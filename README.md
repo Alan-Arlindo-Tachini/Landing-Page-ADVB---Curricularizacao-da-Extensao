@@ -5,6 +5,7 @@
 
 <p align="center">
  <a href="#objetivo">Objetivo da Curricularização</a> •
+ <a href="#demonstracao">Demonstração da Aplicação</a> •
  <a href="#status">Status</a> • 
  <a href="#requisitos">Pré-requisitos</a> • 
  <a href="#clonando">Clonando para Repositorio Local</a> • 
@@ -12,18 +13,28 @@
  <a href="#autor">Autor</a>
 </p>
 
+<br/>
 <div id="objetivo"></div>
 
 ### 🔚 Objetivo da Curricularização
 
 O objetivo da curricularização é permitir que os estudantes utilizem dos conhecimentos adquiridos em aulas e aplique de forma prática contribuindo para a resolução de problemas sociais. 
 
+<br/>
+<div id="demonstracao"></div>
+
+### 👁️‍🗨️ Demonstração da Aplicação
+
+<a href="https://landing-page-advb-1uca2trhp-alan-arlindo-tachinis-projects.vercel.app/">![demonstracao](https://github.com/user-attachments/assets/ae4762dd-4550-40cb-be28-3f73667a8155)</a>
+
+<br/>
 <div id="status"></div>
 
 ### 📬 Status
 
 	🚧  Landing Page 🚀 Finalizada 🚧
 
+<br/>
 <div id="requisitos"></div>
 
 ### 🚩 Pré-requisitos
@@ -32,6 +43,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
+<br/>
 <div id="clonando"></div>
 
 ### 🎲 Clonando para Repositorio Local
@@ -41,6 +53,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone https://github.com/Alan-Arlindo-Tachini/Landing-Page-ADVB---Curricularizacao-da-Extensao.git
 ```
 
+<br/>
 <div id="tecnologias"></div>
 
 ### ⚒️ Tecnologias
@@ -57,19 +70,19 @@ Frameworks utilizados:
 
 ![MenuHamburguer](/assets/images/menu%20hamburguer.png
 )
-- [Bootstrap](https://getbootstrap.com/) para fazer o carrossel
+- [Bootstrap](https://getbootstrap.com/) para fazer o carrossel:
 
+https://github.com/user-attachments/assets/811e96c3-342f-41be-bc67-76fa494bb6f9
 
+<br/>
 <div id="autor"></div>
 
 ### 🙋‍♂️ Autores
-
 <a href="https://github.com/Alan-Arlindo-Tachini">
  <img src="https://avatars.githubusercontent.com/u/160692029?v=4" width="100px;" alt=""/>
 	 <br />
  <sub><b>Alan Arlindo Tachini</b></sub></a> <a href="https://github.com/Alan-Arlindo-Tachini" title="Alan-Unifebe"></a>
 
- <br />
   <br />
   <br />
 <a href="https://github.com/MateusTama">
